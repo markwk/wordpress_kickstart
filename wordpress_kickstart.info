@@ -33,6 +33,7 @@ dependencies[] = toolbar
 
 ; Contrib
 
+dependencies[] = imce
 dependencies[] = media
 dependencies[] = pathologic
 dependencies[] = wordpress_migrate

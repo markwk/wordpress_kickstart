@@ -1,5 +1,7 @@
 api = 2
 core = 7.16
+projects[imce][version] = 1.5
+projects[imce][subdir] = contrib
 projects[media][version] = 1.2
 projects[media][subdir] = contrib
 projects[pathologic][version] = 2.3
