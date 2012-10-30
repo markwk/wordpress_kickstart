@@ -42,6 +42,8 @@ dependencies[] = wysiwyg
 
 
 ;Features
+dependencies[] = wpk_defaults
+
 
 ;dependencies[] = wordpress_kickstart_defaults
 
