@@ -33,6 +33,9 @@ dependencies[] = toolbar
 
 ; Contrib
 
+dependencies[] = context
+dependencies[] = defaultcontent
+dependencies[] = features
 dependencies[] = imce
 dependencies[] = imce_wysiwyg
 dependencies[] = media
@@ -43,9 +46,9 @@ dependencies[] = wordpress_migrate
 dependencies[] = wysiwyg
 
 ; Custom 
-dependencies[] = wpk_defaults
 
 ;Features
+dependencies[] = wpk_defaults
 
 
 files[] = wordpress_kickstart.profile

@@ -1,11 +1,12 @@
 <?php
 
-include_once('wpk_defaults.default_content.inc');
-
 /**
  * Implementation of hook_install()
  */
 function wpk_defaults_install() {
+  
+  //Change site frontpage afterwards to WPK page
+  variable_set('site_frontpage', 'wordpress-kickstart-instructions');
   
   /**
    * Update wysiwyg settings
@@ -35,15 +36,6 @@ function wpk_defaults_install() {
    */
   
   _wpk_defaults_add_menu_links();
-  
-  /**
-   * Add default content 
-   */
-  
-  wpk_defaults_default_content();
-  
-  //Change site frontpage afterwards to WPK page
-  variable_set('site_frontpage', 'wordpress-kickstart-instructions');
 }
 
 /**

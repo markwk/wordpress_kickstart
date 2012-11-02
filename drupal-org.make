@@ -1,5 +1,12 @@
 api = 2
 core = 7.16
+
+projects[context][version] = 3.0-beta4
+projects[context][subdir] = contrib
+projects[defaultcontent][version] = 1.0-alpha6
+projects[defaultcontent][subdir] = contrib
+projects[features][version] = 1.0
+projects[features][subdir] = contrib
 projects[imce][version] = 1.5
 projects[imce][subdir] = contrib
 projects[imce_wysiwyg][version] = 1.5
