@@ -178,11 +178,11 @@ function wordpress_kickstart_install() {
   variable_set('node_admin_theme', '1');
   
   /**
-   * Enable Bartik theme as default
+   * Enable Twenty Eleven theme as default
    */
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'bartik')
+    ->condition('name', 'twentyeleven')
     ->execute();
 }

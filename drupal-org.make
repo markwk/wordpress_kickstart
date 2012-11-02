@@ -24,6 +24,10 @@ projects[wordpress_migrate][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 projects[wysiwyg][subdir] = contrib
 
+; Wordpress TwentyEleven Theme 
+projects[twentyeleven][type] = "theme"
+projects[twentyeleven][version] = "1.x-dev"
+
 ; Libraries
 
 libraries[tinymce][download][type] = "get"
