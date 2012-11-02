@@ -37,18 +37,16 @@ dependencies[] = imce
 dependencies[] = imce_wysiwyg
 dependencies[] = media
 dependencies[] = migrate
+dependencies[] = pathauto
 dependencies[] = pathologic
 dependencies[] = wordpress_migrate
 dependencies[] = wysiwyg
 
 ; Custom 
-
-
-;Features
 dependencies[] = wpk_defaults
 
+;Features
 
-;dependencies[] = wordpress_kickstart_defaults
 
 files[] = wordpress_kickstart.profile
 files[] = wordpress_kickstart.install

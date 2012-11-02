@@ -64,4 +64,6 @@ function wpk_defaults_default_content(){
   );
   
   node_save($node);
+  
+  print_r($node);
 }
