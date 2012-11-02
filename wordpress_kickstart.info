@@ -36,6 +36,7 @@ dependencies[] = toolbar
 dependencies[] = imce
 dependencies[] = imce_wysiwyg
 dependencies[] = media
+dependencies[] = migrate
 dependencies[] = pathologic
 dependencies[] = wordpress_migrate
 dependencies[] = wysiwyg
