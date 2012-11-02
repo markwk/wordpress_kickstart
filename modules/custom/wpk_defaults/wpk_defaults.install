@@ -1,5 +1,7 @@
 <?php
 
+include_once('wpk_defaults.default_content.inc');
+
 /**
  * Implementation of hook_install()
  */
@@ -27,4 +29,62 @@ function wpk_defaults_install() {
     'value' => 'a:4:{i:4;a:4:{s:6:"weight";s:1:"0";s:9:"vimeo_pid";s:1:"1";s:11:"youtube_pid";s:1:"1";s:10:"public_pid";s:1:"1";}i:3;a:4:{s:6:"weight";s:1:"0";s:9:"vimeo_pid";i:0;s:11:"youtube_pid";i:0;s:10:"public_pid";i:0;}i:2;a:4:{s:6:"weight";i:11;s:9:"vimeo_pid";i:0;s:11:"youtube_pid";i:0;s:10:"public_pid";i:0;}i:1;a:4:{s:6:"weight";i:12;s:9:"vimeo_pid";i:0;s:11:"youtube_pid";i:0;s:10:"public_pid";i:0;}}',
   ))
   ->execute();
+  
+  /**
+   * Add menu links 
+   */
+  
+  _wpk_defaults_add_menu_links();
+  
+  /**
+   * Add default content 
+   */
+  
+  wpk_defaults_default_content();
+  
+  //Change site frontpage afterwards to WPK page
+  variable_set('site_frontpage', 'wordpress-kickstart-instructions');
+}
+
+/**
+ * Add WPK Menu items
+ */
+function _wpk_defaults_add_menu_links(){
+  
+  /**
+   * Add shortcuts to Toolbar 
+   */
+  
+  $item = array(
+    'link_title' => t('Comments'),
+    'link_path' => 'admin/content/comment',
+    'menu_name' => 'shortcut-set-1',
+    'weight' => 1,
+    'customized' => 1,
+    'module'     => 'wpk_defaults',
+  );
+
+  menu_link_save($item);
+  
+  $item = array(
+    'link_title' => t('Media'),
+    'link_path' => 'admin/content/media',
+    'menu_name' => 'shortcut-set-1',
+    'weight' => 2,
+    'customized' => 1,
+    'module'     => 'wpk_defaults',
+  );
+
+  menu_link_save($item);
+  
+  $item = array(
+    'link_title' => t('Wordpress Migration'),
+    'link_path' => 'admin/content/wordpress',
+    'menu_name' => 'shortcut-set-1',
+    'weight' => 3,
+    'customized' => 1,
+    'module'     => 'wpk_defaults',
+  );
+  
+  menu_link_save($item);
 }

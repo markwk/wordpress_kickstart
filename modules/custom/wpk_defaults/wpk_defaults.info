@@ -1,5 +1,5 @@
 name = "Wordpress Kickstart Defaults"
 description = "Wordpress Kickstart default content, menus, etc."
 core = "7.x"
-package = "Features"
+package = "Wordpress Kickstart"
 php = "5.2.4"
