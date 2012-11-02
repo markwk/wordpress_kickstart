@@ -185,4 +185,6 @@ function wordpress_kickstart_install() {
     ->condition('type', 'theme')
     ->condition('name', 'twentyeleven')
     ->execute();
+  
+  variable_set('theme_default', 'twentyeleven');
 }
