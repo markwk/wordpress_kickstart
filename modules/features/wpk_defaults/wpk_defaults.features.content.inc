@@ -10,7 +10,7 @@
 function wpk_defaults_content_defaults() {
   $content = array();
 
-  $body = '<p>Be sure to <a href="/user?destination=/">log in</a> first to get started.</p><p>Thank you for downloading the <a href="http://drupal.org/project/wordpress_kickstart" target="_blank">Wordpress Kickstart install profile</a>. We are going to get you up and running on <a href="http://drupal.org/project/drupal" target="_blank">Drupal</a> as fast as possible. Please read the instructions below.</p>
+  $body = '<p>Be sure to <a href="/user?destination=">log in</a> first to get started.</p><p>Thank you for downloading the <a href="http://drupal.org/project/wordpress_kickstart" target="_blank">Wordpress Kickstart install profile</a>. We are going to get you up and running on <a href="http://drupal.org/project/drupal" target="_blank">Drupal</a> as fast as possible. Please read the instructions below.</p>
 <h3>1. Go to your Wordpress Dashboard and download your site as a .WXR file.</h3>
 <p>This is typically located at [Wordpress URL]/wp-admin/tools.php?page=export-choices</p>
 <p><img src="/profiles/wordpress_kickstart/modules/features/wpk_defaults/images/wp-export-admin.png" alt="Wordpress Admin Export Page" /></p>
