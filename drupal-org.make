@@ -19,11 +19,11 @@ projects[migrate][version] = 2.4
 projects[migrate][subdir] = contrib
 projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = contrib
-projects[pathologic][version] = 2.3
+projects[pathologic][version] = 2.6
 projects[pathologic][subdir] = contrib
 projects[wordpress_migrate][version] = 2.0
 projects[wordpress_migrate][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 projects[wysiwyg][subdir] = contrib
 
 ; Wordpress TwentyEleven Theme 
