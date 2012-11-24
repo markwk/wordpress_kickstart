@@ -1,5 +1,5 @@
 api = 2
-core = 7.16
+core = 7.17
 
 projects[context][version] = 3.0-beta4
 projects[context][subdir] = contrib
@@ -17,10 +17,14 @@ projects[media][version] = 1.2
 projects[media][subdir] = contrib
 projects[migrate][version] = 2.4
 projects[migrate][subdir] = contrib
+projects[migrate_extras][version] = 2.5
+projects[migrate_extras][subdir] = contrib
 projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = contrib
 projects[pathologic][version] = 2.6
 projects[pathologic][subdir] = contrib
+projects[token][version] = 1.4
+projects[token][subdir] = contrib
 projects[wordpress_migrate][version] = 2.0
 projects[wordpress_migrate][subdir] = contrib
 projects[wysiwyg][version] = 2.2
